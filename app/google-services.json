@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "368400243938",
+    "project_id": "mynomina-1794d",
+    "storage_bucket": "mynomina-1794d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368400243938:android:a09dae190dcdea4f1252bb",
+        "android_client_info": {
+          "package_name": "com.example.mynomina"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_Bk99f_V-rEUfCohKAWXfWEYNl92DZbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

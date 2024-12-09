@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="600dp"
+    android:background="#DDA8E3"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvSalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu Salario: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTransportationAllowance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auxilio de transporte: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvBiweeklySalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Salario quincenal: " />
+
+    <TextView
+        android:id="@+id/tvValorDominicalFestivoCompleto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor dominical o festivo completo: " />
+
+    <TextView
+        android:id="@+id/tvDailySalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salario diario: " />
+
+    <TextView
+        android:id="@+id/tvExtraDiurna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hora extra diurna: " />
+
+    <TextView
+        android:id="@+id/tvExtraNocturna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hora extra nocturna: " />
+
+    <TextView
+        android:id="@+id/tvExtraDiurnaDominicalFestiva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hora extra diurna dominical y festiva: " />
+
+    <TextView
+        android:id="@+id/tvExtraNocturnaDominicalFestiva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hora extra nocturna dominical y festiva: " />
+
+</LinearLayout>

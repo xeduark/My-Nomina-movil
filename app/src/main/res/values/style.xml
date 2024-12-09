@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/color_texto_toolbar</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/color_toolbar</item>
+    </style>
+    <style name="AppLabelStyle">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+</resources>

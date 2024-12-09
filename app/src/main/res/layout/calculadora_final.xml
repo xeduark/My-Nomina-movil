@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".calculadora_Final">
+
+    <!-- Toolbar -->
+
+    <!-- EditText para horas -->
+    <!-- EditText para dias-->
+
+    <Button
+        android:id="@+id/btnOtros"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#11FFFFFF"
+        android:text="OTROS"
+        android:textColor="#F8F3F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/color_toolbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047"
+        app:titleTextColor="@color/color_texto_toolbar" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresa los siguientes Datos:"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupContainer"
+        android:layout_width="300dp"
+        android:layout_height="53dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.194">
+
+        <RadioButton
+            android:id="@+id/radioButtonHoursWorked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Horas Laboradas"
+            android:textColor="#03035C" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDaysWorked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Días Laborados"
+            android:textColor="#03035C" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/HorasLsb"
+        android:layout_width="276dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Horas Laboradas"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#03035C"
+        android:textColorHint="#03035C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.289" />
+
+    <EditText
+        android:id="@+id/subTrans"
+        android:layout_width="276dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Dias para Sub. Transporte"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#03035C"
+        android:textColorHint="#03035C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <EditText
+        android:id="@+id/domYFest"
+        android:layout_width="276dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Domingo y/o Festivo por horas"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#03035C"
+        android:textColorHint="#03035C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.429" />
+
+    <EditText
+        android:id="@+id/hrsED"
+        android:layout_width="276dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Horas Extras Diurnas"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#03035C"
+        android:textColorHint="#03035C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <EditText
+        android:id="@+id/hrsEDF"
+        android:layout_width="276dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Horas Extras Dominical"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#03035C"
+        android:textColorHint="#03035C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.565" />
+
+    <EditText
+        android:id="@+id/hrsEN"
+        android:layout_width="276dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Horas Extra Nocturna"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#03035C"
+        android:textColorHint="#03035C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.631" />
+
+    <EditText
+        android:id="@+id/hrsEND"
+        android:layout_width="276dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Hora Extra Dominical Nocturna"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#03035C"
+        android:textColorHint="#03035C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698" />
+
+    <EditText
+        android:id="@+id/hrsND"
+        android:layout_width="276dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Hora Nocturna Dominical"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#03035C"
+        android:textColorHighlight="#00BCD4"
+        android:textColorHint="#03035C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.765" />
+
+    <EditText
+        android:id="@+id/hrsDD"
+        android:layout_width="276dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Hora Diurna Dominical"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#03035C"
+        android:textColorHint="#03035C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.832" />
+
+    <EditText
+        android:id="@+id/DiasLab"
+        android:layout_width="276dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Dias laborados"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#03035C"
+        android:textColorHint="#03035C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.289" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#E60753"
+        android:text="CALCULAR"
+        android:textColor="#EFEDED"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.891" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

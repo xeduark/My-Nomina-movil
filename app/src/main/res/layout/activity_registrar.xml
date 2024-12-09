@@ -9,7 +9,7 @@
     tools:context=".Registrar">
 
     <Button
-        android:id="@+id/bL1"
+        android:id="@+id/btnRegister"
         android:layout_width="300dp"
         android:layout_height="45dp"
         android:layout_marginTop="16dp"
@@ -18,102 +18,64 @@
         android:textColor="#EFEDED"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.776"
+        tools:ignore="HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#11FFFFFF"
+        android:text="INICIAR SESION"
+        android:textColor="#F8F3F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.477"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.932"
-        tools:ignore="HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+        app:layout_constraintVertical_bias="0.9" />
 
     <EditText
-        android:id="@+id/editTextText"
-        android:layout_width="297dp"
-        android:layout_height="45dp"
-        android:backgroundTint="#F6F1F1"
-        android:ems="10"
-        android:hint="Ingresa tu nombre"
-        android:inputType="text"
-        android:textColor="#C103035E"
-        android:textColorHint="#C103035E"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.419"
-        tools:ignore="Autofill,HardcodedText" />
-
-    <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/email"
         android:layout_width="297dp"
         android:layout_height="45dp"
         android:backgroundTint="#F6F1F1"
         android:ems="10"
         android:hint="Ingresa tu correo*"
         android:inputType="textEmailAddress"
+        android:textAlignment="center"
         android:textColor="#C103035E"
         android:textColorHint="#C103035E"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.464"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.546"
+        app:layout_constraintVertical_bias="0.386"
         tools:ignore="Autofill,HardcodedText" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/contra"
         android:layout_width="297dp"
         android:layout_height="45dp"
         android:backgroundTint="#F6F1F1"
         android:ems="10"
         android:hint="Ingresa tu contraseña*"
         android:inputType="textPassword"
+        android:textAlignment="center"
         android:textColor="#C103035E"
         android:textColorHint="#C103035E"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.464"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.654"
+        app:layout_constraintVertical_bias="0.523"
         tools:ignore="Autofill,HardcodedText" />
 
-    <EditText
-        android:id="@+id/editTextPhone"
-        android:layout_width="297dp"
-        android:layout_height="45dp"
-        android:backgroundTint="#F6F1F1"
-        android:ems="10"
-        android:hint="Ingresa tu telefono"
-        android:inputType="phone"
-        android:textColor="#C103035E"
-        android:textColorHint="#C103035E"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.782"
-        tools:ignore="Autofill,HardcodedText" />
-
-
-    <EditText
-        android:id="@+id/editTextNumber"
-        android:layout_width="297dp"
-        android:layout_height="45dp"
-        android:backgroundTint="#F6F1F1"
-        android:ems="10"
-        android:hint="Ingresa tu  ID*"
-        android:inputType="number"
-        android:textColor="#C103035E"
-        android:textColorHint="#C103035E"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.295"
-        tools:ignore="Autofill,HardcodedText" />
 
     <TextView
         android:id="@+id/tV2"

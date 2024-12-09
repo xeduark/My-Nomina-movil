@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="600dp"
+    android:layout_height="wrap_content"
+    android:background="#DDA8E3"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtSalarioBase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Salario base:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtSubsidioTransporte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Subsidio de transporte:"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/deven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="DEVENGADO"
+        android:textColor="#03035C"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTotalHoras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Total horas extras:"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/Tod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Total Otros Devengados:"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtTotalDeven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Total Devengado:"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/dec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="DEDUCCIONES"
+        android:textColor="#03035C"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/sal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Salud:"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/pen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Pension:"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/otrosDesNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Otros Descuentos por Nomina:"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/txtTotalDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Total Deducciones:"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/totalDevDec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Total con Deducciones:"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/neto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="NETO A PAGAR"
+        android:textColor="#03035C"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txtTotalPagar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:drawableStart="@drawable/ic_money"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCerrar"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:onClick="cerrarDialogo"
+        android:layout_marginTop="16dp"
+        android:text="Cerrar" />
+
+</LinearLayout>

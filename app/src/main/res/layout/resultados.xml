@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="600dp"
+    android:layout_height="wrap_content"
+    android:background="#DDA8E3"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtSalarioBase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Salario base:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtSubsidioTransporte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Subsidio de transporte:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtDiasHorasTrabajadas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Horas/Días trabajadas:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtDomingoFestivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Horas Domingo y Festivo:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtHorasExtrasDiurnas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Horas extras diurnas:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtHorasExtrasDominical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Horas extras dominical:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtHorasExtrasNocturnas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Horas extras nocturnas:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtHorasExtrasDominicalNocturna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Horas extras dominical nocturna:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtHorasNocturnasDominicalOrdinaria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Horas nocturnas dominical ordinaria:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtHorasDiurnasDominicalOrdinaria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Horas diurnas dominical ordinaria:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtTotalHoras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Total horas extras:"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTotalPagar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Total a pagar:"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCerrar"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:onClick="cerrarDialogo"
+        android:text="Cerrar" />
+
+</LinearLayout>

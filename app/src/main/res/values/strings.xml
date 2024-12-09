@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">My Nomina</string>
+    <string name="settings"><font color="@color/color_settings">Config</font></string>
+    <string name="share"><font color="@color/color_share">Compartir</font></string>
+    <string name="logout"><font color="@color/color_logout">Cerrar Sesión</font></string>
 </resources>

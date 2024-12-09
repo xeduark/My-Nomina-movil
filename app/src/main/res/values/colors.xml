@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="color_texto_toolbar">#F4F4F9</color>
+    <color name="color_toolbar">#03035C</color>
+    <color name="color_settings">#03035C</color>
+    <color name="color_share">#03035C</color>
+    <color name="color_logout">#03035C</color>
+
 </resources>
